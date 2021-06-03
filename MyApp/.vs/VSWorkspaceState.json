@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\view",
+    "\\app\\view\\main",
+    "\\app\\view\\widget",
+    "\\app\\view\\widget\\other",
+    "\\app\\view\\widget\\table",
+    "\\app\\view\\widget\\table\\grid",
+    "\\ext",
+    "\\resources"
+  ],
+  "SelectedNode": "\\app\\view\\widget\\table\\grid\\GridModel.js",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,27 @@
+.clock-container {
+    display: block;
+    position: relative;
+    padding: 20px;
+    padding-left: 40px;
+    color: #fff;
+    -webkit-animation: show-notification 3s ease-out;
+    animation: show-notification 3s ease-out;
+    background-color: #0002c4;
+}
+
+.clock-container .clock-item {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.clock-container .clock-item::before {
+    content: '\f017';
+    font-family: 'Font Awesome 5 Free';
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

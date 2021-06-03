@@ -1,0 +1,18 @@
+.exercise-tree-panel .x-tree-icon-parent,
+.exercise-tree-panel .x-tree-icon-parent-expanded {
+    display: none;
+}
+
+.exercise-tree-panel .fa-external-link::before {
+    content: '\f35d';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    color: black;
+    font-size: 0.8em;
+    right: 10px;
+    visibility: hidden;
+}
+
+.exercise-tree-panel .x-grid-item-over:hover .fa-external-link::before {
+    visibility: visible;
+}
